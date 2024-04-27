@@ -17,10 +17,22 @@ class _HowAccessState extends State<HowAccess> {
           Padding(
             padding: const EdgeInsets.all(24),
             child: Image.network(
-            'https://i.pinimg.com/564x/14/2a/22/142a226ffdc84dfbc15d179afe66c1bc.jpg',
-            width: MediaQuery.of(context).size.width,
+              'https://i.pinimg.com/564x/14/2a/22/142a226ffdc84dfbc15d179afe66c1bc.jpg',
+              width: MediaQuery.of(context).size.width,
+              height: 339,
             ),
-          )
+          ),
+          const Padding(
+              padding: EdgeInsets.all(12),
+              child: Text(
+                'Otimo dia!!',
+                style: TextStyle(
+                  color: Colors.black12,
+                  fontFamily: AutofillHints.addressCity,
+                  fontSize: 35,
+                  fontWeight: FontWeight.bold,
+                ),
+              ))
         ],
       ),
     );
