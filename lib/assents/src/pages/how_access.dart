@@ -63,13 +63,40 @@ class _HowAccessState extends State<HowAccess> {
                       backgroundColor: const Color.fromRGBO(197, 255, 149, 1),
                       side: const BorderSide(color: Color.fromRGBO(197, 255, 149, 0.5)),
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10.0)
+                      borderRadius: BorderRadius.circular(10.0)
                       )
                     ),
                     ),
                 ),
               
+              ),
+               Padding(
+                padding:const EdgeInsets.fromLTRB(8, 50, 8, 8),
+                child:
+                SizedBox(
+                  height: 62,
+                  width: MediaQuery.of(context).size.width,
+                  child: TextButton (
+                     onPressed: () => {
+
+                     },
+                    style: OutlinedButton.styleFrom(
+                      backgroundColor: const Color.fromRGBO(197, 255, 149, 1),
+                      side: const BorderSide(color: Color.fromRGBO(197, 255, 149, 0.5)),
+                      shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10.0)
+                      )
+                    ),
+                    child: const Text('Outras Opções?',
+                    style: TextStyle(
+                      color: Colors.white
+                    )
+                    ),
+                  ),
+                )
               )
+
+              
         ],
       ),
     );
