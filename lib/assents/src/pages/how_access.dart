@@ -78,7 +78,7 @@ class _HowAccessState extends State<HowAccess> {
                   width: MediaQuery.of(context).size.width,
                   child: TextButton (
                      onPressed: () => {
-
+                      Navigator.pushNamed(context, 'splashlogin')
                      },
                     style: OutlinedButton.styleFrom(
                       backgroundColor: const Color.fromRGBO(197, 255, 149, 1),
