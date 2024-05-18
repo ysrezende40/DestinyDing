@@ -6,6 +6,10 @@ class Splashscreen extends StatefulWidget {
   @override
   State<Splashscreen> createState() => _MyWidgetState();
 }
+// class _Splashscreen extends State<Splashscreen>{
+//   @override
+//   void init
+// }
 
 class _MyWidgetState extends State<Splashscreen> {
   @override
