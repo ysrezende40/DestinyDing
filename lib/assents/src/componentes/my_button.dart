@@ -37,8 +37,8 @@ class Mybutton extends StatelessWidget {
         ),
         child: Text(
           _label,
-          style: TextStyle(
-             color: _isPrimary ? ColorStyle.primary : ColorStyle.secondary
+          style: const TextStyle(
+             color: ColorStyle.primary
           )
         ),
       ),

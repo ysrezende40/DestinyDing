@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
      return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/splashlogin',
+      initialRoute: '/howaccess',
       routes: {
          '/splash': (context) => const Splashscreen(),
          '/howaccess': (context) => const HowAccess(),
