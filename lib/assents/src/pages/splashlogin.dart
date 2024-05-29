@@ -127,7 +127,9 @@ class _SplashloginState extends State<Splashlogin> {
                 isPrimary: false,
                 label: "Acessar",
                 marginSize: 0,
-                onPressedButton: () {},
+                onPressedButton: () => {
+                  Navigator.pushNamed(context, '/introduction')
+                }
               ),
               Mybutton(
                 buttonProportion: 0.4,
